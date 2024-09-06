@@ -3,7 +3,7 @@ test("string.not", () => {
 
     expect(name).not.toBe("male");
     expect(name).not.toEqual("boy");
-    expect(name).not.toMatch(/m/);
+    expect(name).not.toMatch(/bouuy/);
 });
 
 test("number.not", () => {
